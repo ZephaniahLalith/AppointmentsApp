@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.Container {
+  height: 100vh;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0px;
+}
+
+.Inputcontainer {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+}
+.AppointmentContainer {
+  background-color: white;
+  width: 80%;
+  min-height: 60%;
+  max-height: auto;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.AppointmentInput {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 50%;
+}
+.AppointmentInput button {
+  width: 40px;
+  background-color: #9796f0;
+}
+.AddAppointmentSection {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.AddAppointmentSection img {
+  height: 240px;
+  width: 400px;
+}
+
+.middleSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
